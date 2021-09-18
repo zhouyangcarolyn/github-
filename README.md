@@ -10,3 +10,10 @@ git add index.html (加入索引)/git add .(一口氣將全部檔案加入索引
 git commit -m "新增網頁"(提交一个新版本）
 ![image](https://user-images.githubusercontent.com/90244424/133870373-94970c4c-7619-4b76-b1c9-9aeedac93a58.png)
 ![image](https://user-images.githubusercontent.com/90244424/133870523-72cec42a-2bb1-4f7f-aebc-c7b1264c0a7f.png)
+新增第二个版本：
+touch all.css
+(git status)
+git add .
+(git status)
+git commit-m "插入css"
+git log
